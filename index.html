@@ -9,52 +9,84 @@
       integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
       crossorigin="anonymous"
     />
+    <link rel="stylesheet" href="assets/css/style.css" />
     <title>TODO LIST</title>
   </head>
   <body>
-    <div class="container mt-5">
+    <div class="container mt-5 bg-secondary-subtle">
       <div class="d-flex p-2">
         <div class="p-2 w-100">
           <h2>Cadastro tarefas</h2>
         </div>
         <div class="p-2 flex-shrink-1">
-          <button type="button" class="btn btn-outline-primary">Primary</button>
+          <button type="button" class="btn btn-outline-primary openModal">
+            Incluir
+          </button>
         </div>
       </div>
-      <table class="table">
+      <table class="table mt-5">
         <thead>
           <tr>
             <th scope="col">Nome</th>
             <th scope="col">Função</th>
             <th scope="col">Salário</th>
-            <th scope="col">Editar</th>
-            <th scope="col">Excluir</th>
+            <th scope="col" class="action">Editar</th>
+            <th scope="col" class="action">Excluir</th>
           </tr>
         </thead>
-        <tbody>
-          <tr>
-            <th scope="row">1</th>
-            <td>Mark</td>
-            <td>Otto</td>
-            <td>@mdo</td>
-            <td>aaaa</td>
-          </tr>
-          <tr>
-            <th scope="row">2</th>
-            <td>Jacob</td>
-            <td>Thornton</td>
-            <td>@fat</td>
-            <td>aaaa</td>
-          </tr>
-          <tr>
-            <th scope="row">3</th>
-            <td colspan="2">Larry the Bird</td>
-            <td>@twitter</td>
-            <td>aaaa</td>
-          </tr>
-        </tbody>
+        <tbody></tbody>
       </table>
+      <div class="modal hide">
+        <div class="modal-dialog">
+          <div class="modal-content bg-secondary-subtle">
+            <div class="modal-header">
+              <h5 class="modal-title">Incluir Tarefa</h5>
+              <button
+                type="button"
+                class="btn-close"
+                data-bs-dismiss="modal"
+                aria-label="Close"
+              ></button>
+            </div>
+            <div class="modal-body">
+              <form>
+                <div class="mb-3">
+                  <label for="exampleInputNome" class="form-label">Nome</label>
+                  <input
+                    type="text"
+                    class="form-control"
+                    id="exampleInputNome"
+                    aria-describedby="emailHelp"
+                  />
+                </div>
+                <div class="mb-3">
+                  <label for="exampleInputFuncao" class="form-label"
+                    >Função</label
+                  >
+                  <input
+                    type="text"
+                    class="form-control"
+                    id="exampleInputFuncao"
+                  />
+                </div>
+                <div class="mb-3">
+                  <label for="exampleInputSalario" class="form-label"
+                    >Salário</label
+                  >
+                  <input
+                    type="text"
+                    class="form-control"
+                    id="exampleInputSalario"
+                  />
+                </div>
+                <button type="submit" class="btn btn-primary">Salvar</button>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
+
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
@@ -65,5 +97,6 @@
       integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo="
       crossorigin="anonymous"
     ></script>
+    <script src="assets/js/script.js"></script>
   </body>
 </html>
