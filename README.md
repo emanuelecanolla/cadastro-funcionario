@@ -19,5 +19,5 @@ Este projeto é um exemplo de um sistema de cadastro de funcionários desenvolvi
 
 Contribuições são bem-vindas! Se você tiver sugestões de melhorias, novas funcionalidades ou correções de bugs, sinta-se à vontade para abrir uma issue ou enviar um pull request para o repositório original [WilliamDosSantos/CRUD-JavaScript](https://github.com/WilliamDosSantos/CRUD-JavaScript).
 
-##Autor
+## Autor
 Este projeto foi adaptado por Emanuele Canolla baseado no tutorial de William Dos Santos.
