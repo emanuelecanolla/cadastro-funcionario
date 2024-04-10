@@ -1,5 +1,10 @@
 # Projeto Cadastro de Funcionário 🚧
 
+
+
+https://github.com/emanuelecanolla/cadastro-funcionario/assets/73749704/cbaa6b5a-d280-4675-95ed-3d4259941b14
+
+
 Este projeto é um exemplo de um sistema de cadastro de funcionários desenvolvido com JavaScript, jQuery e Bootstrap. Ele foi inspirado no tutorial disponível em [https://www.youtube.com/watch?v=JxtQJ8P0ekE&t=260s](https://www.youtube.com/watch?v=JxtQJ8P0ekE&t=260s), e o código original pode ser encontrado no repositório GitHub de [WilliamDosSantos/CRUD-JavaScript](https://github.com/WilliamDosSantos/CRUD-JavaScript).
 
 ## Funcionalidades
